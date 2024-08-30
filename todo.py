@@ -69,7 +69,7 @@ if __name__ == '__main__':
     root.resizable(False,False)
     root.title("To-Do-List")
     #icon:
-    # root.wm_iconbitmap("task_02.ico")
+    root.wm_iconbitmap("task_02.ico")
     # top image:
     top_image=PhotoImage(file="topbar.png")
     Label(root,image=top_image).pack()
